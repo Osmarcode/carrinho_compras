@@ -7,7 +7,6 @@ public class Item {
 	private int quantidade;
 	
 	
-	
 	public Item(String nome, double preco, int quantidade) {
 		super();
 		this.nome = nome;
@@ -36,7 +35,7 @@ public class Item {
 	
 	@Override
 	public String toString() {
-		return "Item [nome=" + nome + ", preco=" + preco + ", quantidade=" + quantidade + "]";
+		return "Item [nome = " + nome + ", preco R$" + preco + ", quantidade = " + quantidade + "]";
 	}
 	
 	
